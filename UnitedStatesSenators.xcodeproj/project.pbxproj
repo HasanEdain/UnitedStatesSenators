@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE6CDA6428565B0500D29DF7 /* UnitedStatesSenatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA6328565B0500D29DF7 /* UnitedStatesSenatorsApp.swift */; };
+		FE6CDA6628565B0500D29DF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA6528565B0500D29DF7 /* ContentView.swift */; };
+		FE6CDA6828565B0900D29DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6CDA6728565B0900D29DF7 /* Assets.xcassets */; };
+		FE6CDA6B28565B0900D29DF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6CDA6A28565B0900D29DF7 /* Preview Assets.xcassets */; };
+		FE6CDA7528565B0A00D29DF7 /* UnitedStatesSenatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA7428565B0A00D29DF7 /* UnitedStatesSenatorsTests.swift */; };
+		FE6CDA7F28565B0A00D29DF7 /* UnitedStatesSenatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA7E28565B0A00D29DF7 /* UnitedStatesSenatorsUITests.swift */; };
+		FE6CDA8128565B0A00D29DF7 /* UnitedStatesSenatorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA8028565B0A00D29DF7 /* UnitedStatesSenatorsUITestsLaunchTests.swift */; };
+		FE6CDA8E28565B2900D29DF7 /* SenatorFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA8D28565B2900D29DF7 /* SenatorFetch.swift */; };
+		FE6CDA9128565CDD00D29DF7 /* Senator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA9028565CDD00D29DF7 /* Senator.swift */; };
+		FE6CDA9328565DB200D29DF7 /* Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA9228565DB200D29DF7 /* Extra.swift */; };
+		FE6CDA9528565E1C00D29DF7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA9428565E1C00D29DF7 /* Person.swift */; };
+		FE6CDA972856669600D29DF7 /* Senators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA962856669600D29DF7 /* Senators.swift */; };
+		FE6CDA9A28566A3300D29DF7 /* SenatorSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA9928566A3300D29DF7 /* SenatorSummaryView.swift */; };
+		FE6CDA9C2856762300D29DF7 /* SenatorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA9B2856762300D29DF7 /* SenatorListView.swift */; };
+		FE6CDA9E28567A3000D29DF7 /* Officials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDA9D28567A3000D29DF7 /* Officials.swift */; };
+		FE90DACE2856C871007BB77D /* SenatorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90DACD2856C871007BB77D /* SenatorDetailView.swift */; };
+		FEE21C622856971500BE58B7 /* PartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE21C612856971400BE58B7 /* PartyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE6CDA7128565B0A00D29DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE6CDA5828565B0500D29DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6CDA5F28565B0500D29DF7;
+			remoteInfo = UnitedStatesSenators;
+		};
+		FE6CDA7B28565B0A00D29DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE6CDA5828565B0500D29DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6CDA5F28565B0500D29DF7;
+			remoteInfo = UnitedStatesSenators;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE6CDA6028565B0500D29DF7 /* UnitedStatesSenators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitedStatesSenators.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6CDA6328565B0500D29DF7 /* UnitedStatesSenatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitedStatesSenatorsApp.swift; sourceTree = "<group>"; };
+		FE6CDA6528565B0500D29DF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE6CDA6728565B0900D29DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE6CDA6A28565B0900D29DF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE6CDA7028565B0A00D29DF7 /* UnitedStatesSenatorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitedStatesSenatorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6CDA7428565B0A00D29DF7 /* UnitedStatesSenatorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitedStatesSenatorsTests.swift; sourceTree = "<group>"; };
+		FE6CDA7A28565B0A00D29DF7 /* UnitedStatesSenatorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitedStatesSenatorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6CDA7E28565B0A00D29DF7 /* UnitedStatesSenatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitedStatesSenatorsUITests.swift; sourceTree = "<group>"; };
+		FE6CDA8028565B0A00D29DF7 /* UnitedStatesSenatorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitedStatesSenatorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE6CDA8D28565B2900D29DF7 /* SenatorFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorFetch.swift; sourceTree = "<group>"; };
+		FE6CDA9028565CDD00D29DF7 /* Senator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senator.swift; sourceTree = "<group>"; };
+		FE6CDA9228565DB200D29DF7 /* Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extra.swift; sourceTree = "<group>"; };
+		FE6CDA9428565E1C00D29DF7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FE6CDA962856669600D29DF7 /* Senators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senators.swift; sourceTree = "<group>"; };
+		FE6CDA9928566A3300D29DF7 /* SenatorSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorSummaryView.swift; sourceTree = "<group>"; };
+		FE6CDA9B2856762300D29DF7 /* SenatorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorListView.swift; sourceTree = "<group>"; };
+		FE6CDA9D28567A3000D29DF7 /* Officials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Officials.swift; sourceTree = "<group>"; };
+		FE90DACD2856C871007BB77D /* SenatorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorDetailView.swift; sourceTree = "<group>"; };
+		FEE21C612856971400BE58B7 /* PartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE6CDA5D28565B0500D29DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6CDA6D28565B0A00D29DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6CDA7728565B0A00D29DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE6CDA5728565B0500D29DF7 = {
+			isa = PBXGroup;
+			children = (
+				FE6CDA6228565B0500D29DF7 /* UnitedStatesSenators */,
+				FE6CDA7328565B0A00D29DF7 /* UnitedStatesSenatorsTests */,
+				FE6CDA7D28565B0A00D29DF7 /* UnitedStatesSenatorsUITests */,
+				FE6CDA6128565B0500D29DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE6CDA6128565B0500D29DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CDA6028565B0500D29DF7 /* UnitedStatesSenators.app */,
+				FE6CDA7028565B0A00D29DF7 /* UnitedStatesSenatorsTests.xctest */,
+				FE6CDA7A28565B0A00D29DF7 /* UnitedStatesSenatorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE6CDA6228565B0500D29DF7 /* UnitedStatesSenators */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CDA9828566A1D00D29DF7 /* Views */,
+				FE6CDA8F28565CC900D29DF7 /* Data */,
+				FE6CDA6328565B0500D29DF7 /* UnitedStatesSenatorsApp.swift */,
+				FE6CDA6528565B0500D29DF7 /* ContentView.swift */,
+				FE6CDA6728565B0900D29DF7 /* Assets.xcassets */,
+				FE6CDA6928565B0900D29DF7 /* Preview Content */,
+				FE6CDA8D28565B2900D29DF7 /* SenatorFetch.swift */,
+				FE6CDA9D28567A3000D29DF7 /* Officials.swift */,
+			);
+			path = UnitedStatesSenators;
+			sourceTree = "<group>";
+		};
+		FE6CDA6928565B0900D29DF7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CDA6A28565B0900D29DF7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE6CDA7328565B0A00D29DF7 /* UnitedStatesSenatorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CDA7428565B0A00D29DF7 /* UnitedStatesSenatorsTests.swift */,
+			);
+			path = UnitedStatesSenatorsTests;
+			sourceTree = "<group>";
+		};
+		FE6CDA7D28565B0A00D29DF7 /* UnitedStatesSenatorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CDA7E28565B0A00D29DF7 /* UnitedStatesSenatorsUITests.swift */,
+				FE6CDA8028565B0A00D29DF7 /* UnitedStatesSenatorsUITestsLaunchTests.swift */,
+			);
+			path = UnitedStatesSenatorsUITests;
+			sourceTree = "<group>";
+		};
+		FE6CDA8F28565CC900D29DF7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CDA9028565CDD00D29DF7 /* Senator.swift */,
+				FE6CDA9228565DB200D29DF7 /* Extra.swift */,
+				FE6CDA9428565E1C00D29DF7 /* Person.swift */,
+				FE6CDA962856669600D29DF7 /* Senators.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FE6CDA9828566A1D00D29DF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CDA9928566A3300D29DF7 /* SenatorSummaryView.swift */,
+				FE6CDA9B2856762300D29DF7 /* SenatorListView.swift */,
+				FEE21C612856971400BE58B7 /* PartyView.swift */,
+				FE90DACD2856C871007BB77D /* SenatorDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE6CDA5F28565B0500D29DF7 /* UnitedStatesSenators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6CDA8428565B0A00D29DF7 /* Build configuration list for PBXNativeTarget "UnitedStatesSenators" */;
+			buildPhases = (
+				FE6CDA5C28565B0500D29DF7 /* Sources */,
+				FE6CDA5D28565B0500D29DF7 /* Frameworks */,
+				FE6CDA5E28565B0500D29DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitedStatesSenators;
+			productName = UnitedStatesSenators;
+			productReference = FE6CDA6028565B0500D29DF7 /* UnitedStatesSenators.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE6CDA6F28565B0A00D29DF7 /* UnitedStatesSenatorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6CDA8728565B0A00D29DF7 /* Build configuration list for PBXNativeTarget "UnitedStatesSenatorsTests" */;
+			buildPhases = (
+				FE6CDA6C28565B0A00D29DF7 /* Sources */,
+				FE6CDA6D28565B0A00D29DF7 /* Frameworks */,
+				FE6CDA6E28565B0A00D29DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE6CDA7228565B0A00D29DF7 /* PBXTargetDependency */,
+			);
+			name = UnitedStatesSenatorsTests;
+			productName = UnitedStatesSenatorsTests;
+			productReference = FE6CDA7028565B0A00D29DF7 /* UnitedStatesSenatorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE6CDA7928565B0A00D29DF7 /* UnitedStatesSenatorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6CDA8A28565B0A00D29DF7 /* Build configuration list for PBXNativeTarget "UnitedStatesSenatorsUITests" */;
+			buildPhases = (
+				FE6CDA7628565B0A00D29DF7 /* Sources */,
+				FE6CDA7728565B0A00D29DF7 /* Frameworks */,
+				FE6CDA7828565B0A00D29DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE6CDA7C28565B0A00D29DF7 /* PBXTargetDependency */,
+			);
+			name = UnitedStatesSenatorsUITests;
+			productName = UnitedStatesSenatorsUITests;
+			productReference = FE6CDA7A28565B0A00D29DF7 /* UnitedStatesSenatorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE6CDA5828565B0500D29DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FE6CDA5F28565B0500D29DF7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FE6CDA6F28565B0A00D29DF7 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FE6CDA5F28565B0500D29DF7;
+					};
+					FE6CDA7928565B0A00D29DF7 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FE6CDA5F28565B0500D29DF7;
+					};
+				};
+			};
+			buildConfigurationList = FE6CDA5B28565B0500D29DF7 /* Build configuration list for PBXProject "UnitedStatesSenators" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE6CDA5728565B0500D29DF7;
+			productRefGroup = FE6CDA6128565B0500D29DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE6CDA5F28565B0500D29DF7 /* UnitedStatesSenators */,
+				FE6CDA6F28565B0A00D29DF7 /* UnitedStatesSenatorsTests */,
+				FE6CDA7928565B0A00D29DF7 /* UnitedStatesSenatorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE6CDA5E28565B0500D29DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6CDA6B28565B0900D29DF7 /* Preview Assets.xcassets in Resources */,
+				FE6CDA6828565B0900D29DF7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6CDA6E28565B0A00D29DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6CDA7828565B0A00D29DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE6CDA5C28565B0500D29DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE90DACE2856C871007BB77D /* SenatorDetailView.swift in Sources */,
+				FE6CDA9C2856762300D29DF7 /* SenatorListView.swift in Sources */,
+				FE6CDA9528565E1C00D29DF7 /* Person.swift in Sources */,
+				FE6CDA9128565CDD00D29DF7 /* Senator.swift in Sources */,
+				FE6CDA972856669600D29DF7 /* Senators.swift in Sources */,
+				FE6CDA9A28566A3300D29DF7 /* SenatorSummaryView.swift in Sources */,
+				FE6CDA6628565B0500D29DF7 /* ContentView.swift in Sources */,
+				FE6CDA9328565DB200D29DF7 /* Extra.swift in Sources */,
+				FEE21C622856971500BE58B7 /* PartyView.swift in Sources */,
+				FE6CDA6428565B0500D29DF7 /* UnitedStatesSenatorsApp.swift in Sources */,
+				FE6CDA9E28567A3000D29DF7 /* Officials.swift in Sources */,
+				FE6CDA8E28565B2900D29DF7 /* SenatorFetch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6CDA6C28565B0A00D29DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6CDA7528565B0A00D29DF7 /* UnitedStatesSenatorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6CDA7628565B0A00D29DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6CDA8128565B0A00D29DF7 /* UnitedStatesSenatorsUITestsLaunchTests.swift in Sources */,
+				FE6CDA7F28565B0A00D29DF7 /* UnitedStatesSenatorsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE6CDA7228565B0A00D29DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE6CDA5F28565B0500D29DF7 /* UnitedStatesSenators */;
+			targetProxy = FE6CDA7128565B0A00D29DF7 /* PBXContainerItemProxy */;
+		};
+		FE6CDA7C28565B0A00D29DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE6CDA5F28565B0500D29DF7 /* UnitedStatesSenators */;
+			targetProxy = FE6CDA7B28565B0A00D29DF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE6CDA8228565B0A00D29DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE6CDA8328565B0A00D29DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE6CDA8528565B0A00D29DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UnitedStatesSenators/Preview Content\"";
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.UnitedStatesSenators;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE6CDA8628565B0A00D29DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UnitedStatesSenators/Preview Content\"";
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.UnitedStatesSenators;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE6CDA8828565B0A00D29DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.UnitedStatesSenatorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitedStatesSenators.app/UnitedStatesSenators";
+			};
+			name = Debug;
+		};
+		FE6CDA8928565B0A00D29DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.UnitedStatesSenatorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitedStatesSenators.app/UnitedStatesSenators";
+			};
+			name = Release;
+		};
+		FE6CDA8B28565B0A00D29DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.UnitedStatesSenatorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnitedStatesSenators;
+			};
+			name = Debug;
+		};
+		FE6CDA8C28565B0A00D29DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.UnitedStatesSenatorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnitedStatesSenators;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE6CDA5B28565B0500D29DF7 /* Build configuration list for PBXProject "UnitedStatesSenators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6CDA8228565B0A00D29DF7 /* Debug */,
+				FE6CDA8328565B0A00D29DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6CDA8428565B0A00D29DF7 /* Build configuration list for PBXNativeTarget "UnitedStatesSenators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6CDA8528565B0A00D29DF7 /* Debug */,
+				FE6CDA8628565B0A00D29DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6CDA8728565B0A00D29DF7 /* Build configuration list for PBXNativeTarget "UnitedStatesSenatorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6CDA8828565B0A00D29DF7 /* Debug */,
+				FE6CDA8928565B0A00D29DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6CDA8A28565B0A00D29DF7 /* Build configuration list for PBXNativeTarget "UnitedStatesSenatorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6CDA8B28565B0A00D29DF7 /* Debug */,
+				FE6CDA8C28565B0A00D29DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE6CDA5828565B0500D29DF7 /* Project object */;
+}
